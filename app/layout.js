@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={ss3.className}>
+      <body className={ss3.className} >
         {children}
         <Footer isAdmin={isAdmin} />
       </body>
